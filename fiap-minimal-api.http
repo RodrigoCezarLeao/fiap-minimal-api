@@ -1,0 +1,6 @@
+@fiap_minimal_api_HostAddress = http://localhost:5114
+
+GET {{fiap_minimal_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

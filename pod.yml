@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: meu-pod
+  labels:
+    app: minha-aplicacao
+spec:
+  containers:
+    - name: meu-container
+      image: rodrigocezarleao/dotnetapi:v1
+      ports:
+        - containerPort: 8080 # Porta exposta pelo container
